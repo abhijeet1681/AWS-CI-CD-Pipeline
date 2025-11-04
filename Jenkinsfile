@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo '📥 Cloning repository...'
-                git branch: 'main', url: 'https://github.com/angreatharva/NODEJS-REST-API.git'
+                git branch: 'main', url: 'https://github.com/abhijeet1681/AWS-CI-CD-Pipeline.git'
             }
         }
 
